@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Locations - WORKSPACE</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <nav class="navbar">
         <div class="navbar-container">
             <a href="index.html" class="navbar-logo">
-                
                 <img src="workspace.png" alt="WORKSPACE Logo">
             </a>
-            
+
             <ul class="navbar-menu">
                 <li><a href="locations.html">Locations</a></li>
                 <li><a href="who-we-serve.html">Who we serve</a></li>
@@ -22,7 +23,7 @@
                 <li><a href="workspace-solutions.html">Workspace solutions</a></li>
                 <li><a href="resources.html">Resources</a></li>
             </ul>
-            
+
             <div class="navbar-actions">
                 <a href="contact.html" class="btn btn-outline">Contact</a>
                 <button class="btn btn-primary" onclick="openLoginModal()">Login</button>
@@ -30,84 +31,91 @@
         </div>
     </nav>
 
-    
     <section class="location-hero">
-    <video class="location-hero-background" autoplay muted loop playsinline>
-        <source src="earth.mp4" type="video/mp4">
-    </video>
-    
-    <div class="location-hero-overlay"></div>
-    
-    <div class="container">
-       
+        <video class="location-hero-background" autoplay muted loop playsinline>
+            <source src="earth.mp4" type="video/mp4">
+        </video>
 
-    <div class="container">
-        <h1>Our global footprint of 500+ locations</h1>
-        <p>Find the perfect workspace in major cities around the world. From bustling downtown districts to suburban innovation hubs, we're where you need us.</p>
-        
-        <div class="location-search">
-            <input type="text" placeholder="Search by city, neighborhood, or address...">
-            
-            <div class="location-filters">
-                <button class="filter-btn active">All Locations</button>
-                <button class="filter-btn">North America</button>
-                <button class="filter-btn">Europe</button>
-                <button class="filter-btn">Asia Pacific</button>
-                <button class="filter-btn">Latin America</button>
-                <button class="filter-btn">Middle East</button>
+        <div class="location-hero-overlay"></div>
+
+        <div class="container" style="position: relative; z-index: 2;">
+            <span class="eyebrow" style="color: rgba(255,255,255,0.9); margin-bottom: 1rem; display: block;">OUR
+                NETWORK</span>
+            <h1 class="mb-3">Global footprint of <span class="font-display">500+ locations</span></h1>
+            <p class="lead-text" style="color: rgba(255,255,255,0.95); max-width: 700px; margin: 0 auto 3rem;">Find the
+                perfect workspace in major cities around the world. From bustling downtown districts to suburban
+                innovation hubs, we're where you need us.</p>
+
+            <div class="location-search">
+                <input type="text" placeholder="Search by city, neighborhood, or address...">
+
+                <div class="location-filters">
+                    <button class="filter-btn active">All Locations</button>
+                    <button class="filter-btn">North America</button>
+                    <button class="filter-btn">Europe</button>
+                    <button class="filter-btn">Asia Pacific</button>
+                    <button class="filter-btn">Latin America</button>
+                    <button class="filter-btn">Middle East</button>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-   
+
     <section class="section">
         <div class="container">
-            <h2>Featured locations</h2>
-            <p style="max-width: 700px; margin-bottom: 3rem;">Discover our most popular workspace destinations</p>
-            
+            <div class="text-center mb-5">
+                <span class="eyebrow">POPULAR DESTINATIONS</span>
+                <h2 class="mb-3 tracking-tight">Featured <span class="text-gradient">Locations</span></h2>
+                <p class="lead-text" style="max-width: 700px; margin: 0 auto;">Discover our most popular workspace
+                    destinations selected by our members.</p>
+            </div>
+
             <div class="location-grid">
                 <a href="#" class="location-card">
-                    
-                    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800&q=80" alt="New York" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800&q=80" alt="New York"
+                        class="location-card-image">
                     <div class="location-card-content">
                         <span class="location-badge">Featured</span>
-                        <h3>WORKSPACE Manhattan Financial District</h3>
-                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">85 Broad Street, New York, NY 10004</p>
-                        <p>Located in the heart of Manhattan's Financial District, this location offers stunning views of the New York Harbor and is steps away from the subway.</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-bold text-xl mb-1">Manhattan Financial District</h3>
+                        <p class="text-sm text-secondary mb-3">85 Broad Street, New York, NY 10004</p>
+                        <p class="text-base text-secondary mb-4">Located in the heart of Manhattan's Financial District,
+                            this location offers stunning views of the New York Harbor.</p>
+                        <div class="card-features">
                             <span class="feature-item">🏢 15 floors</span>
                             <span class="feature-item">🚇 Subway access</span>
                             <span class="feature-item">☕ Café on-site</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                    
-                    <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80" alt="London" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80" alt="London"
+                        class="location-card-image">
                     <div class="location-card-content">
                         <span class="location-badge">Featured</span>
-                        <h3>WORKSPACE London City</h3>
-                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">125 Old Broad Street, London EC2N 1AR, UK</p>
-                        <p>Premium workspace in the financial heart of London, surrounded by the city's most iconic businesses and landmarks.</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-bold text-xl mb-1">London City</h3>
+                        <p class="text-sm text-secondary mb-3">125 Old Broad Street, London EC2N 1AR</p>
+                        <p class="text-base text-secondary mb-4">Premium workspace in the financial heart of London,
+                            surrounded by the city's most iconic businesses.</p>
+                        <div class="card-features">
                             <span class="feature-item">🏛️ Historic building</span>
                             <span class="feature-item">🚇 Underground nearby</span>
                             <span class="feature-item">🍽️ Restaurant access</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                   
-                    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80" alt="Paris" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80" alt="Paris"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <span class="location-badge">New</span>
-                        <h3>WORKSPACE Paris La Défense</h3>
-                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">1 Parvis de la Défense, 92800 Puteaux, France</p>
-                        <p>Modern workspace in Europe's largest business district with exceptional transport connections and amenities.</p>
-                        <div class="card-features mt-2">
+                        <span class="location-badge" style="background: var(--accent-color);">New</span>
+                        <h3 class="font-bold text-xl mb-1">Paris La Défense</h3>
+                        <p class="text-sm text-secondary mb-3">1 Parvis de la Défense, 92800 Puteaux</p>
+                        <p class="text-base text-secondary mb-4">Modern workspace in Europe's largest business district
+                            with exceptional transport connections.</p>
+                        <div class="card-features">
                             <span class="feature-item">🌆 Skyline views</span>
                             <span class="feature-item">🚊 Metro access</span>
                             <span class="feature-item">🏋️ Gym included</span>
@@ -118,85 +126,87 @@
         </div>
     </section>
 
-   
+
     <section class="section bg-gray">
         <div class="container">
-            <h2>North America</h2>
-            <p style="margin-bottom: 3rem;">Premier workspaces across the United States and Canada</p>
-            
+            <div class="text-center mb-5">
+                <span class="eyebrow">NORTH AMERICA</span>
+                <h2 class="mb-3">Premier workspaces across <span class="text-gradient">Main Hubs</span></h2>
+            </div>
+
             <div class="location-grid">
                 <a href="#" class="location-card">
-                   
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80" alt="San Francisco" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80"
+                        alt="San Francisco" class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE San Francisco SOMA</h3>
-                        <p style="color: var(--text-secondary);">575 Market Street, San Francisco, CA 94105</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">San Francisco SOMA</h3>
+                        <p class="text-sm text-secondary mb-3">575 Market Street, San Francisco, CA</p>
+                        <div class="card-features">
                             <span class="feature-item">🚆 BART adjacent</span>
                             <span class="feature-item">☕ Rooftop terrace</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                    
-                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80" alt="Los Angeles" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80" alt="Los Angeles"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Los Angeles Downtown</h3>
-                        <p style="color: var(--text-secondary);">777 S Figueroa St, Los Angeles, CA 90017</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Los Angeles Downtown</h3>
+                        <p class="text-sm text-secondary mb-3">777 S Figueroa St, Los Angeles, CA</p>
+                        <div class="card-features">
                             <span class="feature-item">🅿️ Parking available</span>
                             <span class="feature-item">🌴 Outdoor space</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                   
-                    <img src="https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=800&q=80" alt="Chicago" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=800&q=80" alt="Chicago"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Chicago Loop</h3>
-                        <p style="color: var(--text-secondary);">20 W Kinzie St, Chicago, IL 60654</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Chicago Loop</h3>
+                        <p class="text-sm text-secondary mb-3">20 W Kinzie St, Chicago, IL</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 L train access</span>
                             <span class="feature-item">🌉 River views</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                    
-                    <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=800&q=80" alt="Boston" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=800&q=80" alt="Boston"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Boston Back Bay</h3>
-                        <p style="color: var(--text-secondary);">535 Boylston St, Boston, MA 02116</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Boston Back Bay</h3>
+                        <p class="text-sm text-secondary mb-3">535 Boylston St, Boston, MA</p>
+                        <div class="card-features">
                             <span class="feature-item">🚊 T station nearby</span>
                             <span class="feature-item">🏛️ Historic district</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                   
-                    <img src="https://images.unsplash.com/photo-1517090504586-fde19ea6066f?w=800&q=80" alt="Seattle" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1517090504586-fde19ea6066f?w=800&q=80" alt="Seattle"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Seattle Downtown</h3>
-                        <p style="color: var(--text-secondary);">1201 3rd Avenue, Seattle, WA 98101</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Seattle Downtown</h3>
+                        <p class="text-sm text-secondary mb-3">1201 3rd Avenue, Seattle, WA</p>
+                        <div class="card-features">
                             <span class="feature-item">🏔️ Mountain views</span>
                             <span class="feature-item">🚶 Pike Place nearby</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                   
-                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80" alt="Dubai" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80" alt="Toronto"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Toronto Financial District</h3>
-                        <p style="color: var(--text-secondary);">1 King St W, Toronto, ON M5H 1A1, Canada</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Toronto Financial District</h3>
+                        <p class="text-sm text-secondary mb-3">1 King St W, Toronto, ON</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 Union Station</span>
                             <span class="feature-item">🏙️ CN Tower views</span>
                         </div>
@@ -206,46 +216,48 @@
         </div>
     </section>
 
-   
+
     <section class="section">
         <div class="container">
-            <h2>Europe</h2>
-            <p style="margin-bottom: 3rem;">Workspaces in major European business hubs</p>
-            
+            <div class="text-center mb-5">
+                <span class="eyebrow">EUROPE</span>
+                <h2 class="mb-3">Major European <span class="text-gradient">Business Hubs</span></h2>
+            </div>
+
             <div class="location-grid">
                 <a href="#" class="location-card">
-                    
-                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80" alt="Berlin" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80" alt="Berlin"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Berlin Mitte</h3>
-                        <p style="color: var(--text-secondary);">Friedrichstraße 76, 10117 Berlin, Germany</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Berlin Mitte</h3>
+                        <p class="text-sm text-secondary mb-3">Friedrichstraße 76, Berlin</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 U-Bahn access</span>
                             <span class="feature-item">🎨 Creative district</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                    
-                    <img src="https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80" alt="Amsterdam" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80" alt="Amsterdam"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Amsterdam Centrum</h3>
-                        <p style="color: var(--text-secondary);">Herengracht 182, 1016 BR Amsterdam, Netherlands</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Amsterdam Centrum</h3>
+                        <p class="text-sm text-secondary mb-3">Herengracht 182, Amsterdam</p>
+                        <div class="card-features">
                             <span class="feature-item">🚲 Bike parking</span>
                             <span class="feature-item">🏛️ Canal views</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                   
-                    <img src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&q=80" alt="Madrid" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&q=80" alt="Madrid"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Madrid Centro</h3>
-                        <p style="color: var(--text-secondary);">Calle de Alcalá 44, 28014 Madrid, Spain</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Madrid Centro</h3>
+                        <p class="text-sm text-secondary mb-3">Calle de Alcalá 44, Madrid</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 Metro nearby</span>
                             <span class="feature-item">☀️ Rooftop terrace</span>
                         </div>
@@ -255,85 +267,87 @@
         </div>
     </section>
 
-   
+
     <section class="section bg-gray">
         <div class="container">
-            <h2>Asia Pacific</h2>
-            <p style="margin-bottom: 3rem;">Dynamic workspaces in Asia's leading business centers</p>
-            
+            <div class="text-center mb-5">
+                <span class="eyebrow">ASIA PACIFIC</span>
+                <h2 class="mb-3">Leading <span class="text-gradient">Innovation Centers</span></h2>
+            </div>
+
             <div class="location-grid">
                 <a href="#" class="location-card">
-                   
-                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" alt="Tokyo" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80" alt="Tokyo"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Tokyo Shibuya</h3>
-                        <p style="color: var(--text-secondary);">2-24-12 Shibuya, Tokyo 150-0002, Japan</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Tokyo Shibuya</h3>
+                        <p class="text-sm text-secondary mb-3">2-24-12 Shibuya, Tokyo</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 JR Station access</span>
                             <span class="feature-item">🗼 City views</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                    
-                    <img src="https://images.unsplash.com/photo-1565967511849-76a60a516170?w=800&q=80" alt="Singapore" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1565967511849-76a60a516170?w=800&q=80" alt="Singapore"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Singapore Marina Bay</h3>
-                        <p style="color: var(--text-secondary);">1 Raffles Place, Singapore 048616</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Singapore Marina Bay</h3>
+                        <p class="text-sm text-secondary mb-3">1 Raffles Place, Singapore</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 MRT connected</span>
                             <span class="feature-item">🌊 Bay views</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                    
-                    <img src="https://i.pinimg.com/1200x/a4/be/59/a4be5929e0e01d15d38d5576aaab3339.jpg" alt="Hong Kong" class="location-card-image">
+                    <img src="https://i.pinimg.com/1200x/a4/be/59/a4be5929e0e01d15d38d5576aaab3339.jpg" alt="Hong Kong"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Hong Kong Central</h3>
-                        <p style="color: var(--text-secondary);">1 Queen's Road Central, Hong Kong</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Hong Kong Central</h3>
+                        <p class="text-sm text-secondary mb-3">1 Queen's Road Central, Hong Kong</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 MTR access</span>
                             <span class="feature-item">🏙️ Skyline views</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                  
-                    <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=800&q=80" alt="Sydney" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=800&q=80" alt="Sydney"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Sydney CBD</h3>
-                        <p style="color: var(--text-secondary);">88 Phillip St, Sydney NSW 2000, Australia</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Sydney CBD</h3>
+                        <p class="text-sm text-secondary mb-3">88 Phillip St, Sydney</p>
+                        <div class="card-features">
                             <span class="feature-item">🚂 Circular Quay</span>
                             <span class="feature-item">🌉 Harbor nearby</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                   
-                    <img src="https://i.pinimg.com/1200x/e9/43/d6/e943d6686baef0e7335abb44e1c01dc5.jpg" alt="Mumbai" class="location-card-image">
+                    <img src="https://i.pinimg.com/1200x/e9/43/d6/e943d6686baef0e7335abb44e1c01dc5.jpg" alt="Mumbai"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Mumbai BKC</h3>
-                        <p style="color: var(--text-secondary);">Bandra Kurla Complex, Mumbai 400051, India</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Mumbai BKC</h3>
+                        <p class="text-sm text-secondary mb-3">Bandra Kurla Complex, Mumbai</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 Metro station</span>
                             <span class="feature-item">🏢 Business district</span>
                         </div>
                     </div>
                 </a>
-                
+
                 <a href="#" class="location-card">
-                    
-                    <img src="https://images.unsplash.com/photo-1580407196238-dac33f57c410?w=800&q=80" alt="Seoul" class="location-card-image">
+                    <img src="https://images.unsplash.com/photo-1580407196238-dac33f57c410?w=800&q=80" alt="Seoul"
+                        class="location-card-image">
                     <div class="location-card-content">
-                        <h3>WORKSPACE Seoul Gangnam</h3>
-                        <p style="color: var(--text-secondary);">152 Teheran-ro, Gangnam-gu, Seoul, South Korea</p>
-                        <div class="card-features mt-2">
+                        <h3 class="font-semibold text-lg mb-1">Seoul Gangnam</h3>
+                        <p class="text-sm text-secondary mb-3">152 Teheran-ro, Seoul</p>
+                        <div class="card-features">
                             <span class="feature-item">🚇 Subway access</span>
                             <span class="feature-item">🌃 Night views</span>
                         </div>
@@ -343,90 +357,51 @@
         </div>
     </section>
 
-  
+
     <section class="section">
         <div class="container">
-            <h2>Coming Soon</h2>
-            <p style="margin-bottom: 3rem;">New locations launching in 2026</p>
-            
-            <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
-                <div class="card" style="text-align: center; padding: 2rem;">
-                    <h3>🇮🇹 Milan</h3>
-                    <p>Q2 2026</p>
+            <div class="text-center mb-5">
+                <span class="eyebrow">EXPANSION PLANS</span>
+                <h2 class="mb-3">Coming <span class="text-gradient">Soon</span></h2>
+                <p class="lead-text">New locations launching in 2026</p>
+            </div>
+
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                <div class="card"
+                    style="text-align: center; padding: 2rem; border: 1px dashed var(--border-color); box-shadow: none;">
+                    <h3 class="font-bold text-lg mb-2">🇮🇹 Milan</h3>
+                    <p class="text-secondary font-medium">Q2 2026</p>
                 </div>
-                <div class="card" style="text-align: center; padding: 2rem;">
-                    <h3>🇧🇷 São Paulo</h3>
-                    <p>Q2 2026</p>
+                <div class="card"
+                    style="text-align: center; padding: 2rem; border: 1px dashed var(--border-color); box-shadow: none;">
+                    <h3 class="font-bold text-lg mb-2">🇧🇷 São Paulo</h3>
+                    <p class="text-secondary font-medium">Q2 2026</p>
                 </div>
-                <div class="card" style="text-align: center; padding: 2rem;">
-                    <h3>🇲🇽 Mexico City</h3>
-                    <p>Q3 2026</p>
+                <div class="card"
+                    style="text-align: center; padding: 2rem; border: 1px dashed var(--border-color); box-shadow: none;">
+                    <h3 class="font-bold text-lg mb-2">🇲🇽 Mexico City</h3>
+                    <p class="text-secondary font-medium">Q3 2026</p>
                 </div>
-                <div class="card" style="text-align: center; padding: 2rem;">
-                    <h3>🇦🇪 Dubai</h3>
-                    <p>Q3 2026</p>
+                <div class="card"
+                    style="text-align: center; padding: 2rem; border: 1px dashed var(--border-color); box-shadow: none;">
+                    <h3 class="font-bold text-lg mb-2">🇦🇪 Dubai</h3>
+                    <p class="text-secondary font-medium">Q3 2026</p>
                 </div>
-                <div class="card" style="text-align: center; padding: 2rem;">
-                    <h3>🇨🇦 Vancouver</h3>
-                    <p>Q4 2026</p>
+                <div class="card"
+                    style="text-align: center; padding: 2rem; border: 1px dashed var(--border-color); box-shadow: none;">
+                    <h3 class="font-bold text-lg mb-2">🇨🇦 Vancouver</h3>
+                    <p class="text-secondary font-medium">Q4 2026</p>
                 </div>
-                <div class="card" style="text-align: center; padding: 2rem;">
-                    <h3>🇮🇩 Jakarta</h3>
-                    <p>Q4 2026</p>
+                <div class="card"
+                    style="text-align: center; padding: 2rem; border: 1px dashed var(--border-color); box-shadow: none;">
+                    <h3 class="font-bold text-lg mb-2">🇮🇩 Jakarta</h3>
+                    <p class="text-secondary font-medium">Q4 2026</p>
                 </div>
             </div>
         </div>
     </section>
 
-   
-    <section class="section feature-section">
-        <div class="container">
-            <div class="text-center mb-4">
-                <h2>Every location, exceptional experience</h2>
-                <p style="max-width: 700px; margin: 1rem auto;">No matter which WORKSPACE location you choose, you'll enjoy the same premium amenities and services</p>
-            </div>
-            
-            <div class="feature-grid">
-                <div class="feature-box">
-                    <div class="feature-box-icon">🏢</div>
-                    <h3>Prime Locations</h3>
-                    <p>All our workspaces are located in prestigious business districts with excellent transport links and nearby amenities.</p>
-                </div>
-                
-                <div class="feature-box">
-                    <div class="feature-box-icon">🎨</div>
-                    <h3>Thoughtful Design</h3>
-                    <p>Every space is professionally designed with ergonomic furniture, natural light, and inspiring décor to boost productivity.</p>
-                </div>
-                
-                <div class="feature-box">
-                    <div class="feature-box-icon">🛜</div>
-                    <h3>Enterprise WiFi</h3>
-                    <p>Dedicated fiber-optic internet connections ensure fast, reliable connectivity for all your business needs.</p>
-                </div>
-                
-                <div class="feature-box">
-                    <div class="feature-box-icon">👥</div>
-                    <h3>Community Events</h3>
-                    <p>Regular networking events, workshops, and social gatherings help you connect with fellow members and grow your network.</p>
-                </div>
-                
-                <div class="feature-box">
-                    <div class="feature-box-icon">🎯</div>
-                    <h3>On-Site Support</h3>
-                    <p>Dedicated community managers and support staff ensure you have everything you need for a productive day.</p>
-                </div>
-                
-                <div class="feature-box">
-                    <div class="feature-box-icon">🔒</div>
-                    <h3>24/7 Access</h3>
-                    <p>Work on your schedule with round-the-clock secure access to your workspace via keycard or mobile app.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-  
     <section class="cta-section">
         <div class="container">
             <h2>Can't find your city?</h2>
@@ -435,13 +410,14 @@
         </div>
     </section>
 
-    
+
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>WORKSPACE</h3>
-                    <p style="color: rgba(255, 255, 255, 0.7);">Making work work better for everyone. Join the global community redefining the workplace.</p>
+                    <p style="color: rgba(255, 255, 255, 0.7);">Making work work better for everyone. Join the global
+                        community redefining the workplace.</p>
                     <div class="footer-social">
                         <a href="#" class="social-icon">📘</a>
                         <a href="#" class="social-icon">🐦</a>
@@ -449,7 +425,7 @@
                         <a href="#" class="social-icon">🔗</a>
                     </div>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Solutions</h3>
                     <ul class="footer-links">
@@ -459,7 +435,7 @@
                         <li><a href="membership.html">Membership Plans</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Company</h3>
                     <ul class="footer-links">
@@ -469,7 +445,7 @@
                         <li><a href="resources.html">Resources</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-section">
                     <h3>Support</h3>
                     <ul class="footer-links">
@@ -480,14 +456,14 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="footer-bottom">
                 <p>&copy; 2026 WORKSPACE. All rights reserved. Made for work. Built for business.</p>
             </div>
         </div>
     </footer>
 
-    
+
     <div id="loginModal" class="modal">
         <div class="modal-content">
             <button class="modal-close" onclick="closeLoginModal()">&times;</button>
@@ -503,7 +479,8 @@
                 </div>
                 <button type="submit" class="btn btn-primary" style="width: 100%;">Sign In</button>
                 <p style="text-align: center; margin-top: 1rem; color: var(--text-secondary);">
-                    Don't have an account? <a href="contact.html" style="color: var(--primary-color); font-weight: 600;">Get Started</a>
+                    Don't have an account? <a href="contact.html"
+                        style="color: var(--primary-color); font-weight: 600;">Get Started</a>
                 </p>
             </form>
         </div>
@@ -513,12 +490,12 @@
         function openLoginModal() {
             document.getElementById('loginModal').classList.add('active');
         }
-        
+
         function closeLoginModal() {
             document.getElementById('loginModal').classList.remove('active');
         }
-        
-        window.onclick = function(event) {
+
+        window.onclick = function (event) {
             const modal = document.getElementById('loginModal');
             if (event.target == modal) {
                 closeLoginModal();
@@ -526,4 +503,5 @@
         }
     </script>
 </body>
+
 </html>
