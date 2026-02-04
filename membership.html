@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Plans - WORKSPACE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="navbar-logo">
+                <!-- REPLACE: Add your workspace.png logo here -->
+                <img src="workspace.png" alt="WORKSPACE Logo">
+            </a>
+            
+            <ul class="navbar-menu">
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="who-we-serve.html">Who we serve</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="workspace-solutions.html">Workspace solutions</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+            
+            <div class="navbar-actions">
+                <a href="contact.html" class="btn btn-outline">Contact</a>
+                <button class="btn btn-primary" onclick="openLoginModal()">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: 60vh;">
+        
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1920&q=80" alt="Modern workspace" class="hero-background">
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1>Flexible membership plans</h1>
+            <p>Choose the plan that's right for you. All plans include premium amenities, 24/7 access, and can be upgraded or canceled anytime.</p>
+        </div>
+    </section>
+
+   
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Choose your membership</h2>
+                <p>All plans include WiFi, printing, meeting room credits, and access to our global community</p>
+            </div>
+            
+            <div class="pricing-grid">
+                
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Hot Desk</h3>
+                    <div class="pricing-price">$299</div>
+                    <p class="pricing-period">per month</p>
+                    <p style="margin-bottom: 2rem; min-height: 60px;">Perfect for freelancers and remote workers who need flexible workspace without a permanent desk.</p>
+                    <ul class="pricing-features">
+                        <li>✓ Access to any open desk</li>
+                        <li>✓ 5 meeting room hours/month</li>
+                        <li>✓ High-speed WiFi</li>
+                        <li>✓ Printing & scanning</li>
+                        <li>✓ Coffee & tea</li>
+                        <li>✓ Community events</li>
+                        <li>✓ Mail handling</li>
+                        <li>✗ Dedicated desk</li>
+                        <li>✗ 24/7 access</li>
+                        <li>✗ Storage locker</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" style="width: 100%;">Get Started</a>
+                </div>
+                
+              
+                <div class="pricing-card featured">
+                    <span class="pricing-badge">Most Popular</span>
+                    <h3 class="pricing-title">Dedicated Desk</h3>
+                    <div class="pricing-price">$499</div>
+                    <p class="pricing-period">per month</p>
+                    <p style="margin-bottom: 2rem; min-height: 60px;">Your own desk in a shared workspace with professionals. Perfect for those who want consistency.</p>
+                    <ul class="pricing-features">
+                        <li>✓ Your own dedicated desk</li>
+                        <li>✓ 10 meeting room hours/month</li>
+                        <li>✓ 24/7 building access</li>
+                        <li>✓ High-speed WiFi</li>
+                        <li>✓ Printing & scanning</li>
+                        <li>✓ Coffee & tea</li>
+                        <li>✓ Community events</li>
+                        <li>✓ Mail handling & storage</li>
+                        <li>✓ Personal storage locker</li>
+                        <li>✓ Ergonomic chair</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" style="width: 100%;">Get Started</a>
+                </div>
+                
+                
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Private Office</h3>
+                    <div class="pricing-price">$899+</div>
+                    <p class="pricing-period">per month</p>
+                    <p style="margin-bottom: 2rem; min-height: 60px;">Fully furnished private offices for teams of 1-20. Scale as you grow with flexible terms.</p>
+                    <ul class="pricing-features">
+                        <li>✓ Private lockable office</li>
+                        <li>✓ Unlimited meeting rooms</li>
+                        <li>✓ 24/7 building access</li>
+                        <li>✓ High-speed WiFi</li>
+                        <li>✓ Printing & scanning</li>
+                        <li>✓ Coffee & tea</li>
+                        <li>✓ Community events</li>
+                        <li>✓ Mail handling & storage</li>
+                        <li>✓ Furniture included</li>
+                        <li>✓ Custom branding options</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" style="width: 100%;">Get Started</a>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p style="color: var(--text-secondary);">All prices shown are per person. Volume discounts available for teams of 10+.</p>
+                <p style="color: var(--text-secondary); margin-top: 0.5rem;">Enterprise solutions with custom pricing available. <a href="contact.html" style="color: var(--primary-color); font-weight: 600;">Contact us</a> to learn more.</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="section bg-gray">
+        <div class="container">
+            <div class="two-column">
+                <div>
+                    
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80" alt="Global access" class="two-column-image">
+                </div>
+                <div>
+                    <h2>All Access Membership</h2>
+                    <h3 style="color: var(--primary-color); margin-bottom: 1.5rem;">Add $150/month to any plan</h3>
+                    <p>Work from any WORKSPACE location worldwide. Perfect for frequent travelers, digital nomads, and companies with distributed teams.</p>
+                    
+                    <h4 class="mt-3">Benefits include:</h4>
+                    <ul style="margin: 1rem 0; padding-left: 1.5rem; color: var(--text-secondary); line-height: 2;">
+                        <li>Access to 500+ locations globally</li>
+                        <li>Book workspace in any city instantly</li>
+                        <li>Same-day reservation availability</li>
+                        <li>Priority access during peak hours</li>
+                        <li>Work seamlessly across time zones</li>
+                        <li>Perfect for business travel</li>
+                    </ul>
+                    
+                    <div class="card" style="background: white; padding: 1.5rem; margin-top: 2rem;">
+                        <h4>Example: Global Consultant</h4>
+                        <p style="margin: 1rem 0;">Sarah's base: New York dedicated desk ($499/mo)</p>
+                        <p style="margin: 1rem 0;">Add All Access: +$150/mo</p>
+                        <p style="margin: 1rem 0;"><strong>Total: $649/month</strong></p>
+                        <p style="margin-top: 1rem; color: var(--text-secondary);">Can now work from London on Monday, Paris on Wednesday, and Tokyo next week—all included.</p>
+                    </div>
+                    
+                    <a href="contact.html" class="btn btn-primary mt-3">Add All Access</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>What's included in every membership</h2>
+                <p>Premium amenities and services to help you do your best work</p>
+            </div>
+            
+            <div class="feature-grid">
+                <div class="feature-box">
+                    <div class="feature-box-icon">🛜</div>
+                    <h3>High-Speed WiFi</h3>
+                    <p>Enterprise-grade fiber-optic internet with dedicated bandwidth and backup connections for reliability.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-box-icon">🖨️</div>
+                    <h3>Printing Services</h3>
+                    <p>Professional color and black & white printing, scanning, and copying. First 100 pages free monthly.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-box-icon">👥</div>
+                    <h3>Meeting Rooms</h3>
+                    <p>State-of-the-art conference rooms with video conferencing, whiteboards, and presentation equipment.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-box-icon">☕</div>
+                    <h3>Premium Beverages</h3>
+                    <p>Complimentary specialty coffee, tea, and refreshments available throughout the day in all locations.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-box-icon">📫</div>
+                    <h3>Mail & Packages</h3>
+                    <p>Professional business address with mail handling and package receiving services at your location.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-box-icon">🎉</div>
+                    <h3>Community Events</h3>
+                    <p>Exclusive networking events, workshops, happy hours, and professional development opportunities.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-box-icon">🔐</div>
+                    <h3>Secure Access</h3>
+                    <p>24/7 secure building access with keycard entry, CCTV monitoring, and on-site security personnel.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-box-icon">🧹</div>
+                    <h3>Professional Cleaning</h3>
+                    <p>Daily cleaning services keep all spaces spotless and professional. Sanitization protocols maintained.</p>
+                </div>
+                
+                <div class="feature-box">
+                    <div class="feature-box-icon">📞</div>
+                    <h3>Phone Booths</h3>
+                    <p>Private soundproof phone booths throughout the space for confidential calls and video meetings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="section feature-section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Optional add-on services</h2>
+                <p>Enhance your membership with additional services</p>
+            </div>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Parking</h3>
+                        <p style="font-size: 2rem; color: var(--primary-color); margin: 1rem 0;">$150/mo</p>
+                        <p>Reserved parking space in building garage or lot. Available at select locations. EV charging stations at premium locations.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Extra Meeting Hours</h3>
+                        <p style="font-size: 2rem; color: var(--primary-color); margin: 1rem 0;">$25/hr</p>
+                        <p>Additional meeting room time beyond monthly allocation. Book rooms for client presentations, team meetings, or workshops.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Event Space Rental</h3>
+                        <p style="font-size: 2rem; color: var(--primary-color); margin: 1rem 0;">$500+</p>
+                        <p>Host company events, training sessions, or presentations. Catering and A/V support available. Capacity 20-200 people.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Business Services</h3>
+                        <p style="font-size: 2rem; color: var(--primary-color); margin: 1rem 0;">Custom</p>
+                        <p>Administrative support, receptionist services, notary services, and professional business assistance on demand.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Virtual Office</h3>
+                        <p style="font-size: 2rem; color: var(--primary-color); margin: 1rem 0;">$99/mo</p>
+                        <p>Professional business address, mail handling, and 5 hours meeting room access per month. No physical workspace included.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Guest Passes</h3>
+                        <p style="font-size: 2rem; color: var(--primary-color); margin: 1rem 0;">$35/day</p>
+                        <p>Day passes for guests, clients, or visiting team members. Full access to workspace and amenities during business hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Compare membership plans</h2>
+                <p>See what's included in each membership tier</p>
+            </div>
+            
+            <div style="overflow-x: auto;">
+                <table style="width: 100%; border-collapse: collapse; background: white; box-shadow: var(--shadow-sm); border-radius: var(--border-radius);">
+                    <thead>
+                        <tr style="background: var(--bg-gray);">
+                            <th style="padding: 1.5rem; text-align: left; border-bottom: 2px solid var(--border-color);">Feature</th>
+                            <th style="padding: 1.5rem; text-align: center; border-bottom: 2px solid var(--border-color);">Hot Desk</th>
+                            <th style="padding: 1.5rem; text-align: center; border-bottom: 2px solid var(--border-color); background: rgba(0, 102, 255, 0.05);">Dedicated Desk</th>
+                            <th style="padding: 1.5rem; text-align: center; border-bottom: 2px solid var(--border-color);">Private Office</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 1rem; border-bottom: 1px solid var(--border-color);">Workspace Access</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">Any open desk</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02);">Your own desk</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">Private office</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1rem; border-bottom: 1px solid var(--border-color);">24/7 Access</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">✗</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02);">✓</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">✓</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1rem; border-bottom: 1px solid var(--border-color);">Meeting Room Hours</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">5 hours/mo</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02);">10 hours/mo</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1rem; border-bottom: 1px solid var(--border-color);">Storage Locker</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">✗</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02);">✓</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">✓</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1rem; border-bottom: 1px solid var(--border-color);">Printing (pages/mo)</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">100</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02);">100</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1rem; border-bottom: 1px solid var(--border-color);">Guest Passes</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">2/mo</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02);">5/mo</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1rem; border-bottom: 1px solid var(--border-color);">Custom Branding</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">✗</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color); background: rgba(0, 102, 255, 0.02);">✗</td>
+                            <td style="padding: 1rem; text-align: center; border-bottom: 1px solid var(--border-color);">✓</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1rem;">Starting Price</td>
+                            <td style="padding: 1rem; text-align: center; font-weight: 700; color: var(--primary-color);">$299/mo</td>
+                            <td style="padding: 1rem; text-align: center; font-weight: 700; color: var(--primary-color); background: rgba(0, 102, 255, 0.02);">$499/mo</td>
+                            <td style="padding: 1rem; text-align: center; font-weight: 700; color: var(--primary-color);">$899/mo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="section faq-section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Membership FAQs</h2>
+                <p>Common questions about WORKSPACE memberships</p>
+            </div>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">What's the commitment term?</div>
+                    <div class="faq-answer">
+                        <p>We offer month-to-month memberships with no long-term commitment required. You can upgrade, downgrade, or cancel anytime with 30 days' notice. We also offer 6-month and annual contracts with discounted rates (10% and 20% off respectively).</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Can I try before I commit?</div>
+                    <div class="faq-answer">
+                        <p>Absolutely! Schedule a tour at any location to see the space and meet the community. We also offer day passes ($35) so you can experience WORKSPACE firsthand before becoming a member.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How do meeting room bookings work?</div>
+                    <div class="faq-answer">
+                        <p>Meeting rooms can be booked through our mobile app or member portal. Reservations are available up to 30 days in advance. Your monthly allocation of meeting hours rolls over for one month if unused. Additional hours can be purchased at $25/hour.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">What happens if I need to upgrade my membership?</div>
+                    <div class="faq-answer">
+                        <p>You can upgrade your membership at any time. The change takes effect immediately or on your preferred date. If upgrading mid-month, we'll prorate the difference. Many members start with Hot Desk and upgrade to Dedicated Desk or Private Office as their needs grow.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Is there a discount for annual memberships?</div>
+                    <div class="faq-answer">
+                        <p>Yes! Annual memberships receive a 20% discount on monthly rates, and 6-month commitments receive 10% off. You'll also receive priority access to new locations and exclusive member benefits. Contact us to discuss annual membership options.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Do you offer team or corporate pricing?</div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer volume discounts for teams of 10 or more members. Enterprise solutions with custom pricing are available for large organizations. Contact our sales team to discuss your specific needs and receive a customized quote.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to join WORKSPACE?</h2>
+            <p>Start with a tour of your nearest location</p>
+            <a href="contact.html" class="btn" style="background: white; color: var(--primary-color);">Schedule Your Tour</a>
+        </div>
+    </section>
+
+   
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WORKSPACE</h3>
+                    <p style="color: rgba(255, 255, 255, 0.7);">Making work work better for everyone. Join the global community redefining the workplace.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🔗</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Solutions</h3>
+                    <ul class="footer-links">
+                        <li><a href="workspace-solutions.html#private-office">Private Office</a></li>
+                        <li><a href="workspace-solutions.html#coworking">Coworking</a></li>
+                        <li><a href="workspace-solutions.html#enterprise">Enterprise</a></li>
+                        <li><a href="membership.html">Membership Plans</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="who-we-serve.html">Who We Serve</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 WORKSPACE. All rights reserved. Made for work. Built for business.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeLoginModal()">&times;</button>
+            <h2>Welcome Back</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Sign In</button>
+                <p style="text-align: center; margin-top: 1rem; color: var(--text-secondary);">
+                    Don't have an account? <a href="contact.html" style="color: var(--primary-color); font-weight: 600;">Get Started</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openLoginModal() {
+            document.getElementById('loginModal').classList.add('active');
+        }
+        
+        function closeLoginModal() {
+            document.getElementById('loginModal').classList.remove('active');
+        }
+        
+        window.onclick = function(event) {
+            const modal = document.getElementById('loginModal');
+            if (event.target == modal) {
+                closeLoginModal();
+            }
+        }
+    </script>
+</body>
+</html>
